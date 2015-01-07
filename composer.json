@@ -1,0 +1,27 @@
+{
+    "name": "javan/laravel-elfinder",
+    "keywords": ["laravel", "elfinder", "tinymce", "filebrowser"],
+    "description": "A Laravel Package to integrate elFinder 2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sohib Abdul Karim",
+            "email": "sohib@javan.co.id"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "barryvdh/elfinder-builds": "2.1.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Javan\\Elfinder\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
